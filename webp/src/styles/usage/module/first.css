@@ -1,0 +1,44 @@
+.first-head {
+  width: 100%;
+  font-size: 1.7rem;
+  height: 4.4rem;
+  background: #0dc441;
+  position: absolute;
+  top: 0; }
+  .first-head i {
+    color: #fff;
+    font-size: 1.5rem;
+    position: absolute;
+    left: .5rem;
+    line-height: 4.4rem; }
+  .first-head p {
+    width: 10rem;
+    margin: 0 auto;
+    padding-top: 1.2rem; }
+    .first-head p a {
+      width: 50%;
+      float: left;
+      background: #64d985;
+      text-align: center;
+      font-size: 1.6rem;
+      padding: .1rem 0; }
+      .first-head p a:first-child {
+        border-radius: 5rem 0 0 5rem; }
+      .first-head p a:last-child {
+        border-radius: 0 5rem 5rem 0; }
+    .first-head p .active {
+      background: #0eba44;
+      color: #fff; }
+  .first-head span {
+    position: absolute;
+    right: .5rem;
+    color: #fff; }
+
+.first-content {
+  width: 100%;
+  position: absolute;
+  top: 8.8rem;
+  bottom: 4.4rem;
+  overflow-y: scroll; }
+
+/*# sourceMappingURL=first.css.map */

@@ -1,0 +1,41 @@
+<div class = "firs-nav">
+    <ul class="list">
+        <li class = "act">足球现场</li>
+        <li>足球生活</li>
+        <li>足球美女</li>
+    </ul>
+</div>
+<div class = "swiper-container">
+    <div class = "swiper-wrapper">
+        <div class = "swiper-slide">
+            <dl ng-repeat = "item in data">
+                <dt>
+                    <img ng-src="{{item.img}}" alt="">
+                </dt>
+                <dd>
+                    {{item.title}}
+                </dd>
+            </dl>
+        </div>
+        <div class = "swiper-slide">
+            <dl ng-repeat = "item in data">
+                <dt>
+                    <img ng-src="{{item.img}}" alt="">
+                </dt>
+                <dd>
+                    {{item.title}}
+                </dd>
+            </dl>
+        </div>
+        <div class = "swiper-slide">
+            <dl ng-repeat = "item in data">
+                <dt>
+                    <img ng-src="{{item.img}}" alt="">
+                </dt>
+                <dd>
+                    {{item.title}}
+                </dd>
+            </dl>
+        </div>
+    </div>
+</div>

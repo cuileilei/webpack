@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //解构数组
+//        function getColors(){
+//            return ["red","blue","purple"];
+//        }
+//        let[red,blue,purple] = getColors();
+//        console.log(red+","+blue+","+purple)
+        //解构对象
+//        let {food:f,fruit:l} = {food:"chick",fruit:"orange"}
+//        console.log(f);
+//        console.log(l)
+        //模板字符串
+//        let bars = "lanbojini";
+//        let color = "green";
+//        let str = `你的车是${bars},颜色为${color}`;
+//        console.log(str)
+        //半段字符串里是否包含其他字符串
+//        let foods = "Milk";
+//        let drinks = "orange";
+//        let arr = `今天的早餐吃的是${foods},喝的是${drinks}`;
+//        console.log(arr);
+//        console.log(arr.startsWith("今天"))
+//        console.log(arr.endsWith("的"));
+//        console.log(arr.includes("早餐"));
+        //默认参数
+//        function add(x,y = 2){
+//            return x+y;
+//        }
+//        console.log(add(1,5))
+//        function resert(x,y){
+//            return x+y;
+//        }
+//        console.log(resert(1,5))
+        //展开操作符和剩余操作符
+//        let qiu = ["basketball","football"];
+//        let per = [...qiu,"huianqi"];
+//        console.log(per)
+//
+        //解构参数
+//        function getInfo(id,type,{email,address}){
+//            console.log(id+","+type+","+email+","+address)
+//        }
+//        getInfo(55,'student',{email:"1415516003qq.com",address:"山西"})
+        //函数名称
+//        let func = function add(){
+//
+//        }
+//        console.log(func.name)
+        //箭头函数
+//        let getInfo = (key,...values) =>{
+//            console.log(key+","+values)
+//        }
+//        getInfo("marry","amrry.com",15)
+        //对象表达式
+//        let name = "cui",age = 22;
+//        student = {
+//            name,
+//            age,
+//            my:function(){
+//                console.log(this.name+","+this.age)
+//            }
+//        }
+//        console.log(student)
+        //对象属性名
+//        let obj = {};
+//        type = "I am a student";
+//        obj.type = "对象";
+//        obj["I am a student"] = "我的";
+//        console.log(obj)
+        //复制一个对象的值大另一个对象
+//        let str1 = {pro:"山西",yb:"11001"};
+//        Object.assign(
+//                str1,
+//                {date:"11212"},
+//                {dateIn:"4411"}
+//                )
+//        console.log(str1)
+//        let start = {
+//            getStart(){
+//                return "start";
+//            }
+//        }
+//        let end = {
+//            getEnd(){
+//                return "end";
+//            }
+//        }
+//        let sun = Object.create(start);
+//        console.log(sun.getStart())
+//        console.log(Object.getPrototypeOf(sun) === start)
+//        Object.setPrototypeOf(sun,end);
+//        console.log(sun.getEnd());
+//        console.log(Object.getPrototypeOf(sun) === end)
+//       let cll = {
+//           x:10,
+//           y:50,
+//           add:function(z){
+//               return this.x+","+this.y+","+z;
+//           }
+//       };
+//       let cui = {
+//           __proto__:cll
+//       }
+//       console.log(cui.add(90))
+        //class
+//        class cui{
+//            constructor(name){
+//                this.name = name;
+//                this.arr = [];
+//            }
+//            get me(){
+//                return this.arr;
+//            }
+//            set me(arr){
+//                this.arr.push(arr);
+//            }
+//            cll(){
+//                console.log(this.name);
+//            }
+//        }
+//        let op = new cui("cuiLeiLei");
+//        op.cll();
+        //继承
+//        class Person{
+//            constructor(foo,baz){
+//                this.foo = foo;
+//                this.baz = baz;
+//            }
+//            info(){
+//                return `${this.foo},${this.baz}`;
+//            }
+//        }
+//        let cl = new  Person("am","beer")
+//        console.log(cl.info())
+//        class People extends Person{
+//            constructor(foo,baz){
+//                super(foo,baz);
+//            }
+//        }
+//        let slide = new People("zhang","li");
+//        console.log(slide.info())
+        //set
+//        console.log(Object.is(NaN,NaN))
+//        console.log(Object.is(+0,-0))
+//        console.log(Object.is("55",55))
+    </script>
+</body>
+</html>

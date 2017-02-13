@@ -1,0 +1,16 @@
+@import "./lib/core/reset.scss";
+@import "./usage/module/index.scss";
+@import "./lib/core/swiper.css";
+@import "../styles/usage/common/comm.css";
+@import "./usage/module/home.scss";
+@import "./usage/module/first.scss";
+@import "./usage/module/firs.scss";
+@import "./usage/module/found.scss";
+@import "./usage/module/my.scss";
+html,body{
+  @include flex();
+  width:100%;
+  height: 100%;
+  position: relative;
+  font-size:62.5%;
+}
